@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Crime Management Dashboard</h1>
+
+<div class="card" onclick="location.href='report.html'">
+    <h3>Report FIR</h3>
+    <p>Register Crime Complaint</p>
+</div>
+
+<div class="card" onclick="location.href='status.html'">
+    <h3>Crime Status</h3>
+    <p>Check FIR Progress</p>
+</div>
+
+<div class="card" onclick="location.href='chatbot.html'">
+    <h3>AI Help Bot</h3>
+    <p>Ask any doubt</p>
+</div>
+
+<button class="logout" onclick="logout()">Logout</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+*Logout function( logout_function_script.js)
+
+function logout() {
+    window.location.href = "index.html";
+}
+
