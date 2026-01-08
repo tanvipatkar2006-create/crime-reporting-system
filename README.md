@@ -1,2 +1,2 @@
 # crime-reporting-system
-A static crime reporting website built with HTML, CSS and Javascript.
+A static crime reporting website built with HTML, CSS and a bit of Javascript.
