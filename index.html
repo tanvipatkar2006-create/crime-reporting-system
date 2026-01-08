@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <title>Crime Reporting System - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Crime Reporting System</h2>
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+Login login (script.js)
+
+function login() {
+    let user = document.getElementById("username").value;
+    let pass = document.getElementById("password").value;
+
+    if(user === "admin" && pass === "1234") {
+        window.location.href = "dashboard.html";
+    } else {
+        alert("Invalid Login Credentials");
+    }
+}
